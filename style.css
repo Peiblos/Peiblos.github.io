@@ -1,0 +1,93 @@
+/*reset*/
+*{ /*El asterisco significa todo*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif; /*tipo de fuente*/
+}
+
+h2{
+    font-size: 1.8rem; /*Tamaño de fuente*/
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+h4{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+p{
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;  
+}
+
+.large{
+    font-size: 20px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 40px;
+    letter-spacing: 1px; /*Espacio entre letras*/
+}
+
+.btn-outline{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.btn-outline:hover{
+    background: #fff;
+    color: #000;
+}
+
+#navbar{
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+#navbar a{
+    color:#000;
+}
+
+#navbar img{ /*imagen en navbar*/
+    height: 200px;
+}
+
+#navbar ul{
+    list-style:none;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#showcase{
+    background: url('/img/OjoCerr.jpg'); 
+    height: 500px;
+}
