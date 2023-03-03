@@ -79,15 +79,87 @@ a{
     height: 200px;
 }
 
-#navbar ul{
+#navbar ul{ /*lista del navbar*/
     list-style:none;
+    float: right;
 }
 
 #navbar ul li{
     float: left;
 }
 
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
 #showcase{
-    background: url('/img/OjoCerr.jpg'); 
+    background: url('img/pablo.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 500px;
+    text-align: center;
+    padding: 100px;
+}
+
+#showcase .btn{
+    margin-top: 250px;
+}
+
+/*Projects*/
+#projects{
+    padding: 80px 0;
+}
+
+.projects-row{
+    display: flex;
+}
+
+.projects-row img{
+    width: 100%;
+}
+
+/*About*/
+#about{
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+
+.about-row{
+    display: flex;
+}
+
+.about-row-experience,
+.about-row-me{
+    width: 50%;
+    padding-left: 50px;
+}
+
+/*Contact*/
+#contact{
+    padding: 80px 0;
+    
+}
+
+.contact-row{
+    display: flex;
+}
+
+.contact-row-icon{
+    width: 33%;
+    text-align: center;
+}
+
+.contact-row-icon img{
+    width: 60px;
+}
+
+/*Footer*/
+
+#mainfooter{
+    background: #f9f9f9;
+    text-align: center;
+    padding: 30px;
 }
