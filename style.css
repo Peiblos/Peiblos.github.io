@@ -38,8 +38,14 @@ a{
     margin: auto;
     max-width: 1300px;
     overflow: auto;
-    padding: 0 20px;  
+    padding: 0 20px;     
 }
+
+.container-projects{
+    display: flex;
+} 
+
+
 
 .large{
     font-size: 20px;
@@ -84,6 +90,10 @@ a{
     float: right;
 }
 
+#navbar ul:hover{
+    color: #fff;
+}
+
 #navbar ul li{
     float: left;
 }
@@ -99,10 +109,12 @@ a{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    width: auto;
     height: 500px;
     text-align: center;
     padding: 100px;
 }
+
 
 #showcase .btn{
     margin-top: 250px;
@@ -111,14 +123,21 @@ a{
 /*Projects*/
 #projects{
     padding: 80px 0;
+    
 }
 
 .projects-row{
     display: flex;
 }
 
-.projects-row img{
+.projects-row-detail{
+    display: flex;
+}
+
+.projects-row-detail img{
+    
     width: 100%;
+    height: 100%;
 }
 
 /*About*/
